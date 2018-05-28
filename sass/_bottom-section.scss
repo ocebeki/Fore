@@ -1,0 +1,24 @@
+.bottom-section {
+    padding: 100px 0;
+    &__wrapper {
+        @extend .cf;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        &:last-child {
+            border-bottom: none;
+        }
+        &:nth-last-of-type(3) {
+            margin-top: 40px;
+        }
+    }
+    &__item {
+        width: 50%;
+        float: left;
+        padding: 0 63px;
+            @media (max-width: 820px) {
+                width: 100%;
+                       border-bottom: 1px solid #ddd;
+                
+        }
+    }
+}

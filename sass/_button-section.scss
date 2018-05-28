@@ -1,0 +1,49 @@
+.button-section {
+    @extend .cf;
+    background-color: #EDEFEE;
+    padding: 27px 60px;
+    border-bottom: 1px solid #ddd;
+    @media (max-width: 996px) {
+        padding: 27px 0;
+    }
+    &__button {
+        display: inline-block;
+        float: left;
+        width: 23%;
+        @media (max-width: 996px) {
+            width: auto;
+            float: none;
+        }
+        button {
+            padding: 20px 30px;
+            background: #79a94b;
+            border: 2px solid #689240;
+            font-size: 20px;
+            border-radius: 7px;
+            @media (max-width: 1300px) {
+                padding: 7px 16px;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    p {
+        display: inline-block;
+        padding-top: 23px;
+        width: 45%;
+        float: left;
+        margin-left: 17%;
+        font-size: 17px;
+        text-shadow: 0 0 1px rgba(0, 0, 0, .05), 0 1px 2px rgba(0, 0, 0, .3);
+        @media (max-width: 1300px) {
+            padding-top: 9px;
+        }
+        @media (max-width: 996px) {
+            width: auto;
+            float: none;
+            margin-left: 0;
+        }
+    }
+}

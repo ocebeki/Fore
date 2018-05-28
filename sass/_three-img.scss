@@ -1,0 +1,35 @@
+.three-img {
+    padding: 100px 0;
+    @media (max-width: 720px) {
+        padding: 50px 0;
+    }
+    h2 {
+            @media (max-width: 771px) {
+        font-size: 2em;
+    }
+    }
+    p {
+        @media (max-width: 720px) {
+            padding-bottom: 10px;
+        }
+    }
+    &__wrapper {
+        float: left;
+        width: 30%;
+        margin: 15px;
+        padding: 10px;
+        img {
+            border-radius: 50%;
+        }
+        @media (max-width: 1200px) {
+            width: 33.33%;
+            margin: 0;
+            padding: 0;
+        }
+        @media (max-width: 772px) {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.header {
+    padding: 120px 0;
+    background-color: black;
+    color: white;
+    z-index: 2;
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../img/Evergreen.jpg) center center;
+
+    p {
+        font-weight: 800;
+        font-weight: 20px;
+        padding-top: 20px;
+        letter-spacing: 2px;
+        color: white;
+    }
+}

@@ -1,0 +1,80 @@
+.slider {
+    color: white;
+    border-bottom: 1px solid #ddd;
+    button {
+        margin-top: 50px;
+        padding: 16px 25px;
+        color: white;
+        border: solid white 2px;
+        background-color: transparent;
+        border-radius: 10px;
+        transition: 0.5s;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+            transition: 0.5s;
+        }
+    }
+    h2 {
+        padding: 0 200px;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        @media (max-width: 1000px) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+.item-1 {
+    background: linear-gradient(rgba(84, 114, 147, 0.30), rgba(84, 114, 147, 0.30)), url(../img/slide1.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+.item-2 {
+    background: linear-gradient(rgba(193, 176, 77, 0.30), rgba(193, 176, 77, 0.30)), url(../img/slide2.jpg) center center;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-3 {
+    background: linear-gradient(rgba(137, 88, 126, 0.30), rgba(137, 88, 126, 0.30)), url(../img/slide3.jpg) center center;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-4 {
+    background: linear-gradient(rgba(170, 119, 66, 0.30), rgba(170, 119, 66, 0.30)), url(../img/slide4.jpg) center center;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-control {
+    padding: 30px 0;
+    background: transparent;
+            @media (max-width: 600px) {
+                padding: 15px;
+        }
+}
+.carousel-control-next {
+    color: black;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+.carousel-control-prev {
+    color: black;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+.carousel-control-next-icon {
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}

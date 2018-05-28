@@ -1,0 +1,33 @@
+.what-makes{
+    background: linear-gradient(rgba(170, 119, 66, 0.30), rgba(170, 119, 66, 0.30)), url(../img/summary.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    color: white;
+        @media (max-width: 700px) {
+        padding: 20px 0;
+    }
+    p{
+        color:white;
+        text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+    }
+    
+    button {
+        margin-top: 50px;
+        padding: 16px 25px;
+        border: solid white 2px;
+        background-color: transparent;
+        border-radius: 10px;
+        transition: 0.5s;
+        &:hover {
+            background-color: rgba(255,255,255,0.5);
+            transition: 0.5s;
+        }
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+  
+}    
